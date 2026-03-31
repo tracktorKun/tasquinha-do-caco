@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;600&display=swap');
+
+@theme {
+  --font-display: "Montserrat", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-brand-brown: #1A0F0A;
+  --color-brand-gold: #C5A059;
+  --color-brand-copper: #8B4513;
+  --color-brand-cream: #F5F5F0;
+  --color-brand-ink: #0D0806;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-brown text-brand-cream font-sans antialiased selection:bg-brand-gold selection:text-brand-brown;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+.glass-card {
+  @apply bg-brand-ink/40 backdrop-blur-xl border border-white/5 rounded-3xl overflow-hidden;
+}
+
+.gold-gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-gold via-[#E5C17E] to-brand-gold;
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Tasquinha do Caco",
+  "description": "Reformulação moderna para a Tasquinha do Caco - Especialistas em Bolo do Caco, Hambúrgueres e Opções Sem Glúten.",
+  "requestFramePermissions": ["geolocation"]
+}
