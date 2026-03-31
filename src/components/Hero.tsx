@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://bellaciao.pt/wp-content/uploads/tasquinha-do-caco-sao-joao.avif"
+          src="https://lh3.googleusercontent.com/p/AF1QipO9OCtwSb1YrJe3jKc1YJPiLpfldBei8Pouy5IL=s1360-w1360-h1020-rw"
           alt="Tasquinha do Caco Ambiente"
           className="w-full h-full object-cover scale-105 animate-slow-zoom"
           referrerPolicy="no-referrer"
